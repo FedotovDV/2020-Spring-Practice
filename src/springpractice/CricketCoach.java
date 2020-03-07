@@ -3,7 +3,6 @@ package springpractice;
 public class CricketCoach implements Coach {
 
 	private FortuneService fortuneService;
-
 	
 	public CricketCoach() {
 		System.out.println("CricketCoach: inside no-arg constructor");
