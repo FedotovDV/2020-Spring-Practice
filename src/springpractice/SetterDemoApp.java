@@ -11,7 +11,6 @@ public class SetterDemoApp {
 		CricketCoach theCoach = context.getBean("myCricketCoach", CricketCoach.class);
 
 		System.out.println(theCoach.getDailyWorkout());
-
 		System.out.println(theCoach.getDailyFortune());
 
 		context.close();
