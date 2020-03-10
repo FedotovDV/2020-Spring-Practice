@@ -1,4 +1,4 @@
-package springpractice;
+package lesson06.springpractice;
 
 public class BaseballCoach implements Coach {
 
