@@ -1,6 +1,6 @@
 package lesson07.annotationpractice;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.*;
 import org.springframework.stereotype.Component;
 
 
@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 public class TennisCoach implements Coach {
 	
 	@Autowired
+	@Qualifier("randomFortuneService")
 	private FortuneService fortuneService;
 //	
 //	public TennisCoach() {
