@@ -47,4 +47,13 @@ public class TennisCoach implements Coach {
 				return fortuneService.getFortune();
 	}
 
+//	>> TennisCoach: inside default constraction!
+//	>> TennisCoach: inside doMySturtupStuff!
+//
+//	Pointing to the same object: true
+//
+//	Memory location for theCoach: lesson09.scopePractice.TennisCoach@52aa2946
+//
+//	Memory location for alphaCoach: lesson09.scopePractice.TennisCoach@52aa2946
+//	>> TennisCoach: inside doMyCleanupStuff!
 }
