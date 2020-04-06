@@ -8,12 +8,12 @@ import org.springframework.stereotype.Component;
 public class TennisCoach implements Coach {
 	
 	@Autowired
-	@Qualifier("randomFortuneService")
+	@Qualifier("happyFortuneService")
 	private FortuneService fortuneService;
-//	
-//	public TennisCoach() {
-//		System.out.println(">> TennisCoach: inside default constraction!");
-//	}
+	
+	public TennisCoach() {
+		System.out.println(">> TennisCoach: inside default constraction!");
+	}
 //	
 //	@Autowired
 //	public TennisCoach(FortuneService fortuneService) {
