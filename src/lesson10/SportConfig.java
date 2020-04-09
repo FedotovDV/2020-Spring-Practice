@@ -7,7 +7,7 @@ import org.springframework.context.annotation.PropertySource;
 
 @Configuration
 //@ComponentScan("lesson10")
-@PropertySource("classpath:spor.properties")
+@PropertySource("classpath:resource/sport.properties")
 public class SportConfig {
 
 	@Bean
